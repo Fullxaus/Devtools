@@ -1,7 +1,7 @@
 package ru.mentee.power.devtools.progress;
 
 
-public class ProgressTracker {
+    public class ProgressTracker {
 
     /**
      * Вычисляет суммарный прогресс группы mentee.
