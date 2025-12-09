@@ -47,4 +47,5 @@ package ru.mentee.power.devtools.progress;
         String progress = tracker.calculateTotalProgress(mentees);
         System.out.println(progress);
     }
+
 }
