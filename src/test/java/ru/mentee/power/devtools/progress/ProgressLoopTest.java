@@ -2,7 +2,6 @@ package ru.mentee.power.devtools.progress;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-
 import static org.assertj.core.api.Assertions.assertThat;
 
 @DisplayName("Тестирование ProgressTracker")
@@ -18,7 +17,6 @@ public class ProgressLoopTest {
                 new Mentee("Мария", "Санкт-Петербург", "Fullstack", 8, 12),
                 new Mentee("Пётр", "Казань", "Java Backend", 12, 12)
         };
-
         // when - выполнение действия
         String result = tracker.calculateTotalProgress(mentees);
 
