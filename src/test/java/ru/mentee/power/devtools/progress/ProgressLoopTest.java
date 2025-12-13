@@ -2,11 +2,11 @@ package ru.mentee.power.devtools.progress;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-
 import static org.assertj.core.api.Assertions.assertThat;
 
 @DisplayName("Тестирование ProgressTracker")
 public class ProgressLoopTest {
+
 
     @Test
     @DisplayName("Должен корректно вычислить суммарный прогресс когда передан массив mentee")
