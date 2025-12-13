@@ -5,7 +5,6 @@ package ru.mentee.power.devtools.progress;
  * Автоматически создаёт конструктор и геттеры: name(), city(), goal(), completedLessons(), totalLessons().
  */
 public record Mentee(
-
         String name,
         String city,
         String goal,

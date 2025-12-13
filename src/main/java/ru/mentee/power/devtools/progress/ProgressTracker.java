@@ -3,13 +3,11 @@ package ru.mentee.power.devtools.progress;
 
     public class ProgressTracker {
 
-
     public String calculateTotalProgress(Mentee[] mentees) {
         // Проверка валидности массива
         if (mentees == null || mentees.length == 0) {
             return "Суммарно: пройдено 0 из 0 уроков, осталось 0 уроков";
         }
-
         // Инициализация аккумуляторов
         int totalCompleted = 0;
         int totalTotal = 0;

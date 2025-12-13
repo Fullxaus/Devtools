@@ -1,6 +1,5 @@
 ## Сценарий ручной проверки DVT-7
 
-
 ### Запуск приложения
 1. Откройте Gradle Tool Window (View → Tool Windows → Gradle)
 2. Выполните: devtools → Tasks → application → run
