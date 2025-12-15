@@ -3,6 +3,7 @@
 Проект следует правилам Google Java Style Guide с адаптацией.
 Автоматическая проверка: ./gradlew checkstyleMain
 
+
 ### 1. Именование методов: camelCase
 
 До:    public void add_student(Student s) { }
