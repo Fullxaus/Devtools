@@ -5,6 +5,7 @@ import java.util.ArrayList;  // порядок импортов нарушен
 
 public class StudentList {
 
+
     private List<Student> student_list;
     // нарушение: snake_case
     private int score1;

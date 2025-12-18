@@ -13,7 +13,7 @@
 
 ### Отладка через Debug
 1. Установите breakpoint на строке цикла while в ProgressTracker.calculateProgress
-2. Запустите Debug: кликните правой кнопкой на main → Debug 'ProgressTracker.main()'
+2. Запустите Debug: кликните правой кнопкой на liveCodingDemo → Debug 'ProgressTracker.liveCodingDemo()'
 3. Используйте Step Over (F8) для прохождения итераций
 4. Проверьте Variables: counter, remainingHours должны изменяться корректно
 5. Используйте Evaluate Expression (Alt+F8): вычислите remainingLessons * 2
