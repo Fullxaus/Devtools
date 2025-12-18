@@ -10,13 +10,13 @@
 **Исправление:** Добавить бейдж в начало README:
 
 #### 2. Забыт отладочный вывод
-**Файл:** src/main/java/ru/mentee/power/devtools/Demo.java (строка 12)
+**Файл:** src/liveCodingDemo/java/ru/mentee/power/devtools/Demo.java (строка 12)
 **Проблема:** Оставлен `System.out.println("Debug: starting loop")`
 **Почему важно:** Отладочный вывод замусоривает логи production-приложения и создаёт впечатление небрежности.
 **Исправление:** Удалить строку или заменить на logger (если логирование настроено).
 
 #### 3. Закомментированный код
-**Файл:** src/main/java/ru/mentee/power/devtools/ProgressLoop.java (строки 23-27)
+**Файл:** src/liveCodingDemo/java/ru/mentee/power/devtools/ProgressLoop.java (строки 23-27)
 **Проблема:** Закомментированы 5 строк старой реализации цикла
 **Почему важно:** Закомментированный код создаёт путаницу: непонятно зачем он сохранён и актуален ли.
 Если нужна история изменений — она в Git.
